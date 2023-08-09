@@ -75,31 +75,53 @@ a {
     align-items: center;
     justify-content: center;
     background: url(header.jpg) no-repeat center center fixed;  */
-    height: 30vh; 
-    padding: 2em;
+    height: 25vh; 
+    padding: 5em;
+    vertical-align: middle;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-image: url(bg.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    
     color: white;
 }
+/***********************************************************************
+ *  list
+ **********************************************************************/
+
 
 /***********************************************************************
  *  Grid Panel
  **********************************************************************/
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-item {
+      flex: 100%;
+    }
+  }
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 .box {
     background-color: #444;
-    padding: 130px;
-    margin: 20px;
+    padding: 200px;
+    margin: 30px;
 }
 
 .box > img {
