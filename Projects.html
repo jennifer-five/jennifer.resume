@@ -20,11 +20,11 @@
     <nav class="main-header__navigation">
       <ul class="main-header__navigation-links">
         <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
-        <li class="main-header__navigation-link"><a href="./Projects.html#about"> About </a></li>
+        <li class="main-header__navigation-link"><a href="./Projects.html#about"> Projects(Soft) </a></li>
         <li class="main-header__navigation-link">
-          <a href="./Projects.html#projects"> Projects </a>
+          <a href="./Projects.html#projects"> Projects(Data) </a>
         </li>
-        <li class="main-header__navigation-link"><a href="./Projects.html#contact" href=""> Contact </a></li>
+        <li class="main-header__navigation-link"><a href="./Projects.html#contact" href=""> Education/Professional Experience </a></li>
       </ul>
     </nav>
     <div class="main-header__sm-scr-nav-btn">
@@ -112,15 +112,20 @@
   <section id="about" class="about main-section">
     <div class="main-container">
       <h2 class="heading-secondary projects__heading-secondary">
-        <span class="heading-secondary__sm"> About 🦄</span>
+        
         <span class="heading-secondary__main">
           Here you will find more information about me, what I do, and list of my current skills in programming
       </h2>
       <div class="main-section__content">
+        <h2 class="heading-secondary projects__heading-secondary">
+          <span class="heading-secondary__sm"> Soft 🦄</span>
+          <span class="heading-secondary__main">
+            
+        </h2>
         <div class="about__info">
           <div class="about__main-info">
             <h3 class="heading-quaternary about__heading-quaternary">
-              YouTube Playlists analysis and search system
+              YouTube Playlists analysis and search system(personal)
             </h3>
             <p class="text-primary about__text-primary">
               <span>
@@ -158,15 +163,28 @@ video statistics and video descriptions using Python.
       </div>
     </div>
   </section>
+  
 
 
   <section id="about" class="about main-section">
     <div class="main-container">
       <div class="main-section__content">
         <div class="about__info">
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">micro-service</li>
+              <li class="about__skill">Kubernetes</li>
+              <li class="about__skill">Scrum</li>
+              <li class="about__skill">CI/CD</li>
+              
+            </ul>
+          </div>
           <div class="about__main-info">
             <h3 class="heading-quaternary about__heading-quaternary">
-              Music micro-service
+              Music micro-service(SFU)
             </h3>
             <p class="text-primary about__text-primary">
               <span>
@@ -179,7 +197,33 @@ system architecture pattern (REST).
               </span>
               
             </p>
-            <a href="https://github.com/jennifer-five/U-MICs-1">
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <div class="projects__list-item-img-cont">
+        <img src="start_page.png" alt="Project Image" style="width: 30%; height: 30%" class="projects__list-item-img" />
+      </div>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Resume: Mobile Application Project(personal)
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Used Flutter to create a mobile application compatible with IOS and Android, and Created UI framework with Dart language to
+visualize hand-written JSON input
+              </span>
+              
+            </p>
+            <a href="https://github.com/jennifer-five/Resume">
             <button class="btn btn-theme about__btn-theme">Projects</button>
             </a>
           </div>
@@ -188,14 +232,11 @@ system architecture pattern (REST).
               My Skills
             </h3>
             <ul class="about__skills">
-              <li class="about__skill">API</li>
-              <li class="about__skill">AWS</li>
-              <li class="about__skill">SPARK</li>
-              <li class="about__skill">Pandas</li>
-              <li class="about__skill">Numpy</li>
-              <li class="about__skill">git</li>
-              <li class="about__skill">vscode</li>
-              <li class="about__skill">Matplotlib</li>
+              <li class="about__skill">Flutter</li>
+              <li class="about__skill">Dart</li>
+              <li class="about__skill">UI</li>
+              <li class="about__skill">Json</li>
+              
               
             </ul>
           </div>
@@ -203,244 +244,50 @@ system architecture pattern (REST).
       </div>
     </div>
   </section>
+  <section id="projects" class="about main-section">
+    <div class="main-container">
+      <h1 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Data 🦄</span>
+        <span class="heading-secondary__main">
+          
+      </h1>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">R</li>
+              <li class="about__skill">statistic classification model</li>
+              <li class="about__skill">F1</li>
+              <li class="about__skill">A/B Test</li>
+              
+            </ul>
+          </div>
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Auto-annotation of cell types(Uvic)
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Predicted cell types based on gene expression by statistic classification model(i.e.,
+logistic regression, Elastic net, classification tree, XGboost, Random Forest) in R
+              </span>
+              <span>
+                Compared performance between Binomial and multinomial model and getting the
+F1 value around 97% for all cell types
+              </span>
+              
+            </p>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
  
-  <section id="projects" class="projects main-section">
-    <div class="main-container">
-      <h2 class="heading-secondary projects__heading-secondary">
-        <span class="heading-secondary__sm"> Projects 🛠️</span>
-        <span class="heading-secondary__main">
-          Here you will find some of the personal and clients projects that I created with the project details
-        </span>
-      </h2>
-      <div class="main-section__content">
-        <div class="projects__list">
-          <div class="projects__list-item">
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 1 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
-                </span>
-                <!-- <br />
-                  <br /> -->
-                <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
-                </span>
-              </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
-            </div>
-          </div>
-          <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
-                </span>
-                <!-- <br />
-                  <br /> -->
-                <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
-                </span>
-              </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 2 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-          </div>
-          <div class="projects__list-item">
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 3 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
-                </span>
-                <!-- <br />
-                  <br /> -->
-                <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
-                </span>
-              </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
-            </div>
-          </div>
-          <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Project Name
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
-                  labore magni saepe veritatis voluptatum alias fugit.
-                  Explicabo ducimus
-                </span>
-                <!-- <br />
-                  <br /> -->
-                <span>
-                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit
-                </span>
-              </p>
-              <button class="btn btn-theme projects__btn-theme">
-                Live Link
-              </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 4 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact" class="contact main-section">
-    <div class="main-container">
-      <h2 class="heading-secondary">
-        <span class="heading-secondary__sm"> Contact 📞</span>
-        <span class="heading-secondary__main">
-          Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
-        </span>
-      </h2>
-      <div class="main-section__content">
-        <div class="contact__form-cont">
-          <form class="contact__form">
-            <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Name</label>
-              <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
-            </div>
-            <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Email</label>
-              <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
-            </div>
-            <div class="contact__form-field">
-              <label for="name" class="contact__form-field-label">Message</label>
-              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
-                class="contact__form-field-input"></textarea>
-            </div>
-            <button type="submit" class="contact__form-submit">Submit</button>
-          </form>
-          <div class="contact__form-visual"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="main-footer">
-    <div class="main-footer__upper">
-      <div class="main-container">
-        <ul class="main-footer__links">
-          <li class="main-footer__link">
-            <a href="./index.html">Home</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#about">About</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#projects">Projects</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#contact">Contact</a>
-          </li>
-        </ul>
-        <div class="main-footer__mid-line"></div>
-        <div class="main-footer__socials">
-          <a href="#" class="main-footer__social-link">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
-              alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
-              alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="#" class="main-footer__social-link">
-            <img src="./assets/icons8-pinterest-64.png" alt="" class="main-footer__social-link-icon" />
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="main-footer__bottom">
-      <div class="main-container">
-        <p class="main-footer__bottom-txt">
-          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
-          <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template
-          <script>document.write(new Date().getFullYear())</script>. Made by
-          <a target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
-        </p>
-      </div>
-    </div>
-  </footer>
   <script src="./script.js"></script>
 </body>
 
